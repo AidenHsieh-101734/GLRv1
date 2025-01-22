@@ -1,0 +1,516 @@
+@media (max-width: 2040px) {
+    body {
+        background-color: rgba(255, 255, 255, 0.451);
+        font-family: impact;
+    }
+    
+    #Links {
+        float: inline-end;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    
+    #Links button {
+        background-color: white;
+        border: none;
+        font-family: impact;
+        font-size: 26px;
+        padding: 30px;
+        transition: 0.4s;
+    }
+    
+    #Links button:hover {
+        color: rgb(7, 189, 7);
+    }
+    #image {
+        float: right;
+        margin-top:180px;
+        margin-right: -600px;
+    }
+
+    #GLR {
+        float: left;
+        padding-top: 250px;
+        padding-left: 400px;
+        font-size: 50px;
+        position: relative;
+        z-index: 10;
+    }
+
+    #Stemt {
+        color: rgb(25, 187, 25);
+    }
+
+    .background-logo img:first-child{
+        left: 300px;
+        padding-top: 190px;
+        rotate: -25deg;
+        position: absolute;
+        z-index: 2;
+        opacity: 0.8;
+    }
+    #background-waves{
+        left: 350px;
+        padding-top: 220px;
+        position: absolute;
+        z-index: 1;
+    }
+    #Tekst{
+        padding-top: 750px;
+        font-size: 40px;
+        color: rgb(25, 187, 25);
+        text-align: center;
+    }
+}
+@media (max-width: 1920px) {
+    body {
+        background-color: rgba(255, 255, 255, 0.451);
+        font-family: impact;
+    }
+    
+    #Links {
+        float: inline-end;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    
+    #Links button {
+        background-color: white;
+        border: none;
+        font-family: impact;
+        font-size: 26px;
+        padding: 30px;
+        transition: 0.4s;
+    }
+    
+    #Links button:hover {
+        color: rgb(7, 189, 7);
+    }
+    #image {
+        float: right;
+        margin-top: 220px;
+        margin-right: -600px;
+    }
+
+    #GLR {
+        float: left;
+        padding-top: 270px;
+        padding-left: 380px;
+        font-size: 50px;
+        position: relative;
+        z-index: 10;
+    }
+
+    #Stemt {
+        color: rgb(25, 187, 25);
+    }
+
+    .background-logo img:first-child{
+        left: 300px;
+        padding-top: 240px;
+        rotate: -25deg;
+        position: absolute;
+        z-index: 2;
+        opacity: 0.8;
+    }
+    #background-waves{
+        left: 350px;
+        padding-top: 240px;
+        position: absolute;
+        z-index: 1;
+    }
+    #Tekst{
+        padding-top: 800px;
+        font-size: 40px;
+        color: rgb(25, 187, 25);
+        text-align: center;
+    }
+}
+@media (max-width: 1600px) {
+    body {
+        background-color: rgba(255, 255, 255, 0.451);
+        font-family: impact;
+    }
+    
+    #Links {
+        float: inline-end;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    
+    #Links button {
+        background-color: white;
+        border: none;
+        font-family: impact;
+        font-size: 26px;
+        padding: 30px;
+        transition: 0.4s;
+    }
+    
+    #Links button:hover {
+        color: rgb(7, 189, 7);
+    }
+    #image {
+        float: right;
+        margin-top: 200px;
+        margin-right: -700px;
+    }
+
+    #GLR {
+        float: left;
+        padding-top: 300px;
+        padding-left: 180px;
+        font-size: 45px;
+        position: relative;
+        z-index: 10;
+    }
+
+    #Stemt {
+        color: rgb(25, 187, 25);
+    }
+
+    .background-logo img:first-child{
+        left: 100px;
+        padding-top: 240px;
+        rotate: -25deg;
+        position: absolute;
+        z-index: 2;
+        opacity: 0.8;
+    }
+    #background-waves{
+        left: 150px;
+        padding-top: 240px;
+        position: absolute;
+        z-index: 1;
+    }
+    #Tekst{
+        padding-top: 800px;
+        font-size: 35px;
+        color: rgb(25, 187, 25);
+        text-align: center;
+    }
+}
+@media (max-width: 1360px) {
+    body {
+        background-color: rgba(255, 255, 255, 0.451);
+        font-family: impact;
+    }
+    
+    #Links {
+        float: inline-end;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    
+    #Links button {
+        background-color: white;
+        border: none;
+        font-family: impact;
+        font-size: 26px;
+        padding: 30px;
+        transition: 0.4s;
+    }
+    
+    #Links button:hover {
+        color: rgb(7, 189, 7);
+    }
+    #image {
+        float: right;
+        margin-top: 200px;
+        margin-right: -700px;
+    }
+
+    #GLR {
+        float: left;
+        padding-top: 100px;
+        padding-left: 180px;
+        font-size: 45px;
+        position: relative;
+        z-index: 10;
+    }
+
+    #Stemt {
+        color: rgb(25, 187, 25);
+    }
+
+    .background-logo img:first-child{
+        left: 100px;
+        padding-top: 240px;
+        rotate: -25deg;
+        position: absolute;
+        z-index: 2;
+        opacity: 0.8;
+    }
+    #background-waves{
+        left: 150px;
+        padding-top: 240px;
+        position: absolute;
+        z-index: 1;
+    }
+    #Tekst{
+        padding-top: 800px;
+        font-size: 35px;
+        color: rgb(25, 187, 25);
+        text-align: center;
+    }
+}
+@media (max-width: 1359px) {
+    body {
+        background-color: rgba(255, 255, 255, 0.451);
+        font-family: impact;
+    }
+    
+    #Links {
+        float: inline-end;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    
+    #Links button {
+        background-color: white;
+        border: none;
+        font-family: impact;
+        font-size: 26px;
+        padding: 30px;
+        transition: 0.4s;
+    }
+    
+    #Links button:hover {
+        color: rgb(7, 189, 7);
+    }
+    #image {
+        float: right;
+        margin-top: 200px;
+        margin-right: -700px;
+    }
+
+    #GLR {
+        float: left;
+        padding-top: 300px;
+        padding-left: 180px;
+        font-size: 45px;
+        position: relative;
+        z-index: 10;
+    }
+
+    #Stemt {
+        color: rgb(25, 187, 25);
+    }
+
+    .background-logo img:first-child{
+        left: 100px;
+        padding-top: 240px;
+        rotate: -25deg;
+        position: absolute;
+        z-index: 2;
+        opacity: 0.8;
+    }
+    #background-waves{
+        left: 150px;
+        padding-top: 240px;
+        position: absolute;
+        z-index: 1;
+    }
+    #Tekst{
+        padding-top: 800px;
+        font-size: 35px;
+        color: rgb(25, 187, 25);
+        text-align: center;
+    }
+}
+@media (max-width: 1330px) {
+    body {
+        background-color: rgba(255, 255, 255, 0.451);
+        font-family: impact;
+    }
+    
+    #Links {
+        float: inline-end;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    
+    #Links button {
+        background-color: white;
+        border: none;
+        font-family: impact;
+        font-size: 26px;
+        padding: 30px;
+        transition: 0.4s;
+    }
+    
+    #Links button:hover {
+        color: rgb(7, 189, 7);
+    }
+    #image {
+        float: right;
+        margin-top: 200px;
+        margin-right: -700px;
+    }
+
+    #GLR {
+        float: left;
+        padding-top: 150px;
+        padding-left: 180px;
+        font-size: 45px;
+        position: relative;
+        z-index: 10;
+    }
+
+    #Stemt {
+        color: rgb(25, 187, 25);
+    }
+
+    .background-logo img:first-child{
+        left: 100px;
+        padding-top: 240px;
+        rotate: -25deg;
+        position: absolute;
+        z-index: 2;
+        opacity: 0.8;
+    }
+    #background-waves{
+        left: 150px;
+        padding-top: 240px;
+        position: absolute;
+        z-index: 1;
+    }
+    #Tekst{
+        padding-top: 800px;
+        font-size: 35px;
+        color: rgb(25, 187, 25);
+        text-align: center;
+    }
+}
+@media (max-width: 1160px) {
+    body {
+        background-color: rgba(255, 255, 255, 0.451);
+        font-family: impact;
+    }
+    
+    #Links {
+        float: inline-end;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    
+    #Links button {
+        background-color: white;
+        border: none;
+        font-family: impact;
+        font-size: 26px;
+        padding: 30px;
+        transition: 0.4s;
+    }
+    
+    #Links button:hover {
+        color: rgb(7, 189, 7);
+    }
+    #image {
+        float: right;
+        margin-top: 200px;
+        margin-right: -800px;
+    }
+
+    #GLR {
+        float: left;
+        padding-top: 100px;
+        padding-left: 30px;
+        font-size: 45px;
+        position: relative;
+        z-index: 10;
+    }
+
+    #Stemt {
+        color: rgb(25, 187, 25);
+    }
+
+    .background-logo img:first-child{
+        left: -60px;
+        padding-top: 240px;
+        rotate: -25deg;
+        position: absolute;
+        z-index: 2;
+        opacity: 0.8;
+    }
+    #background-waves{
+        left: 10px;
+        padding-top: 240px;
+        position: absolute;
+        z-index: 1;
+    }
+    #Tekst{
+        padding-top: 800px;
+        font-size: 35px;
+        color: rgb(25, 187, 25);
+        text-align: center;
+    }
+}
+@media (max-width: 750px) {
+    body {
+        background-color: rgba(255, 255, 255, 0.451);
+        font-family: impact;
+    }
+    
+    #Links {
+        float: inline-end;
+        margin-top: 50px;
+    }
+    
+    #Links button {
+        background-color: white;
+        border: none;
+        font-family: impact;
+        font-size: 18px;
+        padding: 30px;
+        transition: 0.4s;
+    }
+    
+    #Links button:hover {
+        color: rgb(7, 189, 7);
+    }
+    #image {
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    #GLR {
+        padding-top: 300px;
+        padding-left: 270px;
+        font-size: 45px;
+        position: relative;
+        z-index: 10;
+    }
+
+    #Stemt {
+        color: rgb(25, 187, 25);
+    }
+
+    .background-logo img:first-child{
+        left: 40px;
+        padding-top: 940px;
+        rotate: -25deg;
+        position: absolute;
+        z-index: 2;
+        opacity: 0.8;
+    }
+    #background-waves{
+        left: 250px;
+        padding-top: 940px;
+        position: absolute;
+        z-index: 1;
+    }
+    #Tekst{
+        padding-top: 100px;
+        font-size: 35px;
+        color: rgb(25, 187, 25);
+        text-align: center;
+    }
+}

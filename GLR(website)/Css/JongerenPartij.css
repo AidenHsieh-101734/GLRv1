@@ -1,0 +1,41 @@
+body{
+    background-color: rgba(255, 255, 255, 0.451);
+    font-family: impact;
+}
+#Links{
+    float: inline-end;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+#Links button{
+    background-color: white;
+    border: none;
+    font-family: impact;
+    font-size: 26px;
+    padding: 30px;
+    transition: 0.4s;
+}
+#Links button:hover{
+    color: rgb(7, 189, 7);
+}
+#Partijen{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 400px;
+    row-gap: 70px;
+    font-size: 23px;
+    padding-top: 300px;
+    padding-left: 40px;
+}
+#vierkant{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(7, 189, 7);
+    border: none;
+    float: left;
+    margin-top: 20px;
+}
+#tekst{
+    margin-left: 40px;
+}
