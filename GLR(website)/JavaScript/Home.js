@@ -27,3 +27,16 @@ function Login(){
 function Admin(){
     window.location.href = "Admin.html"
 }
+function Menu(){
+    let Links = document.getElementById("Links");
+    
+    if(Links.style.width == "0px"){
+        Links.style.width = '120px';
+        Links.style.visibility = 'visible';
+
+    }
+    else{
+        Links.style.visibility = 'hidden';
+        Links.style.width = '0px'
+    }
+}

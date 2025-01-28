@@ -8,39 +8,670 @@
 </head>
 <body>
     <header>
-        <div id="Links">
-            <button onclick="Home()" id="Home" type="button">Home</button>
-            <button onclick="Jongeren()" id="Jongeren" type="button">Jongeren <br> Partij</button>
-            <button onclick="Stem()" id="Stem" type="button">Stem</button>
-            <button onclick="Uitslag()" id="Uitslag" type="button">Uitslag</button>
-            <button onclick="Login()" id="Login" type="button">Login</button>
-            <button onclick="Admin()" id="Admin" type="button">Admin</button>
+        <div id="Menu">
+            <button onclick="Menu()" id="Menu_buton" type="button"> Menu </button>
         </div>
     </header>
-        <main>
-            <div id="Partijen">
-                <div>
-                    <button onclick="Partij1()" id="vierkant"></button>
-                    <p id="tekst">Partij1</p>
-                </div>
-                <div>
-                    <button id="vierkant"></button>
-                    <p id="tekst">Partij1</p>
-                </div>
-                <div>
-                    <button id="vierkant"></button>
-                    <p id="tekst">Partij1</p>
-                </div>
-                <div>
-                    <button id="vierkant"></button>
-                    <p id="tekst">Partij1</p>
-                </div>
-                <div>
-                    <button id="vierkant"></button>
-                    <p id="tekst">Partij1</p>
+    <div id="Links">
+        <button onclick="Menu()" id="dicht_btn" type="button">X</button>
+        <button onclick="Home()" id="Home" type="button">Home</button>
+        <button onclick="Jongeren()" id="Jongeren" type="button">Jongeren <br> Partij</button>
+        <button onclick="Stem()" id="Stem" type="button">Stem</button>
+        <button onclick="Uitslag()" id="Uitslag" type="button">Uitslag</button>
+        <button onclick="Login()" id="Login" type="button">Login</button>
+        <button onclick="Admin()" id="Admin" type="button">Admin</button>
+    </div>
+    <main>
+        <div class="Partijen" id="Partijen">
+            <div class="Partij1" id="Partij1">
+                <button class="partij1_btn" id="partij1_btn" onclick="Partij1()"></button>
+                <h3 class="Partij1_tekst" id="Partij1_tekst">Partij1</h3>
+            </div>
+            <div class="Partij2" id="Partij2">
+                <button class="partij1_btn" id="partij2_btn" onclick="Partij2()"></button>
+                <h3 class="Partij2_tekst" id="Partij2_tekst">Partij2</h3>
+            </div>
+            <div class="Partij1" id="Partij3">
+                <button class="partij1_btn" id="partij3_btn" onclick="Partij3()"></button>
+                <h3 class="Partij1_tekst" id="Partij3_tekst">Partij3</h3>
+            </div>
+            <div class="Partij2" id="Partij4">
+                <button class="partij1_btn" id="partij4_btn" onclick="Partij4()"></button>
+                <h3 class="Partij2_tekst" id="Partij4_tekst">Partij4</h3>
+            </div>
+            <div class="Partij1" id="Partij5">
+                <button class="partij1_btn" id="partij5_btn" onclick="Partij5()"></button>
+                <h3 class="Partij1_tekst" id="Partij5_tekst">Partij5</h3>
+            </div>
+            <div class="Partij2" id="Partij6">
+                <button class="partij1_btn" id="partij6_btn" onclick="Partij6()"></button>
+                <h3 class="Partij2_tekst" id="Partij6_tekst">Partij6</h3>
+            </div>
+            <div class="Partij1" id="Partij7">
+                <button class="partij1_btn" id="partij7_btn" onclick="Partij7()"></button>
+                <h3 class="Partij1_tekst" id="Partij7_tekst">Partij7</h3>
+            </div>
+            <div class="Partij2" id="Partij8">
+                <button class="partij1_btn" id="partij8_btn" onclick="Partij8()"></button>
+                <h3 class="Partij2_tekst" id="Partij8_tekst">Partij8</h3>
+            </div>
+            <div class="Partij1" id="Partij9">
+                <button class="partij1_btn" id="partij9_btn" onclick="Partij9()"></button>
+                <h3 class="Partij1_tekst" id="Partij9_tekst">Partij9</h3>
+            </div>
+            <div class="Partij2" id="Partij10">
+                <button class="partij1_btn" id="partij10_btn" onclick="Partij10()"></button>
+                <h3 class="Partij2_tekst" id="Partij10_tekst">Partij10</h3>
+            </div>
+            <div class="Partij1" id="Partij11">
+                <button class="partij1_btn" id="partij11_btn" onclick="Partij11()"></button>
+                <h3 class="Partij1_tekst" id="Partij11_tekst">Partij11</h3>
+            </div>
+            <div class="Partij2" id="Partij12">
+                <button class="partij1_btn" id="partij12_btn" onclick="Partij12()"></button>
+                <h3 class="Partij2_tekst" id="Partij12_tekst">Partij12</h3>
+            </div>
+            <div class="Partij1" id="Partij13">
+                <button class="partij1_btn" id="partij13_btn" onclick="Partij13()"></button>
+                <h3 class="Partij1_tekst" id="Partij13_tekst">Partij13</h3>
+            </div>
+            <div class="Partij2" id="Partij14">
+                <button class="partij1_btn" id="partij14_btn" onclick="Partij14()"></button>
+                <h3 class="Partij2_tekst" id="Partij14_tekst">Partij14</h3>
+            </div>
+            <div class="Partij1" id="Partij15">
+                <button class="partij1_btn" id="partij15_btn" onclick="Partij15()"></button>
+                <h3 class="Partij1_tekst" id="Partij15_tekst">Partij15</h3>
+            </div>
+            <div class="Partij2" id="Partij16">
+                <button class="partij1_btn" id="partij16_btn" onclick="Partij16()"></button>
+                <h3 class="Partij2_tekst" id="Partij16_tekst">Partij16</h3>
+            </div>
+            <div class="Partij1" id="Partij17">
+                <button class="partij1_btn" id="partij17_btn" onclick="Partij17()"></button>
+                <h3 class="Partij1_tekst" id="Partij17_tekst">Partij17</h3>
+            </div>
+            <div class="Partij2" id="Partij18">
+                <button class="partij1_btn" id="partij18_btn" onclick="Partij18()"></button>
+                <h3 class="Partij2_tekst" id="Partij18_tekst">Partij18</h3>
+            </div>
+            <div class="Partij1" id="Partij19">
+                <button class="partij1_btn" id="partij19_btn" onclick="Partij19()"></button>
+                <h3 class="Partij1_tekst" id="Partij19_tekst">Partij19</h3>
+            </div>
+            <div class="Partij2" id="Partij20">
+                <button class="partij1_btn" id="partij20_btn" onclick="Partij20()"></button>
+                <h3 class="Partij2_tekst" id="Partij20_tekst">Partij20</h3>
+            </div>
+            <div class="Partij1" id="Partij21">
+                <button class="partij1_btn" id="partij21_btn" onclick="Partij21()"></button>
+                <h3 class="Partij1_tekst" id="Partij21_tekst">Partij21</h3>
+            </div>
+            <div class="Partij2" id="Partij22">
+                <button class="partij1_btn" id="partij22_btn" onclick="Partij22()"></button>
+                <h3 class="Partij2_tekst" id="Partij22_tekst">Partij22</h3>
+            </div>
+            <div class="Partij1" id="Partij23">
+                <button class="partij1_btn" id="partij23_btn" onclick="Partij23()"></button>
+                <h3 class="Partij1_tekst" id="Partij23_tekst">Partij23</h3>
+            </div>
+            <div class="Partij2" id="Partij24">
+                <button class="partij1_btn" id="partij24_btn" onclick="Partij24()"></button>
+                <h3 class="Partij2_tekst" id="Partij24_tekst">Partij24</h3>
+            </div>
+            <div class="Partij1" id="Partij25">
+                <button class="partij1_btn" id="partij25_btn" onclick="Partij25()"></button>
+                <h3 class="Partij1_tekst" id="Partij25_tekst">Partij25</h3>
+            </div>
+            <div class="Partij2" id="Partij26">
+                <button class="partij1_btn" id="partij26_btn" onclick="Partij26()"></button>
+                <h3 class="Partij2_tekst" id="Partij26_tekst">Partij26</h3>
+            </div>
+            <div class="Partij1" id="Partij27">
+                <button class="partij1_btn" id="partij27_btn" onclick="Partij27()"></button>
+                <h3 class="Partij1_tekst" id="Partij27_tekst">Partij27</h3>
+            </div>
+            <div class="Partij2" id="Partij28">
+                <button class="partij1_btn" id="partij28_btn" onclick="Partij28()"></button>
+                <h3 class="Partij2_tekst" id="Partij28_tekst">Partij28</h3>
+            </div>
+            <div class="Partij1" id="Partij29">
+                <button class="partij1_btn" id="partij29_btn" onclick="Partij29()"></button>
+                <h3 class="Partij1_tekst" id="Partij29_tekst">Partij29</h3>
+            </div>
+            <div class="Partij2" id="Partij30">
+                <button class="partij1_btn" id="partij30_btn" onclick="Partij30()"></button>
+                <h3 class="Partij2_tekst" id="Partij30_tekst">Partij30</h3>
+            </div>
+            <div class="Partij1" id="Partij31">
+                <button class="partij1_btn" id="partij31_btn" onclick="Partij31()"></button>
+                <h3 class="Partij1_tekst" id="Partij31_tekst">Partij31</h3>
+            </div>
+            <div class="Partij2" id="Partij32">
+                <button class="partij1_btn" id="partij32_btn" onclick="Partij32()"></button>
+                <h3 class="Partij2_tekst" id="Partij32_tekst">Partij32</h3>
+            </div>
+            <div class="Partij1" id="Partij33">
+                <button class="partij1_btn" id="partij33_btn" onclick="Partij33()"></button>
+                <h3 class="Partij1_tekst" id="Partij33_tekst">Partij33</h3>
+            </div>
+            <div class="Partij2" id="Partij34">
+                <button class="partij1_btn" id="partij34_btn" onclick="Partij34()"></button>
+                <h3 class="Partij2_tekst" id="Partij34_tekst">Partij34</h3>
+            </div>
+            <div class="Partij1" id="Partij35">
+                <button class="partij1_btn" id="partij35_btn" onclick="Partij35()"></button>
+                <h3 class="Partij1_tekst" id="Partij35_tekst">Partij35</h3>
+            </div>
+            <div class="Partij2" id="Partij36">
+                <button class="partij1_btn" id="partij36_btn" onclick="Partij36()"></button>
+                <h3 class="Partij2_tekst" id="Partij36_tekst">Partij36</h3>
+            </div>
+        </div>
+        <div id="PartijenInfo">
+            <div class="PartijInfo" id="partij1Info">
+                <h3 class="PartijNaam1" id="Partij1Naam1">PartijNaam</h3>
+                <img id="Partij1foto1" src="foto.jpg" alt="">
+                <h3 class="PartijNaam2" id="Partij1Naam2">PartijNaam</h3>
+                <p class="exstra" id="Partij1exstra">Hier komt er exstra tekst over de partij</p>
+                <h5 class="Title" id="Partij1Title">Hier komt de Title van de partij te staan</h5>
+                <div class="delogo">
+                    <img id="Partij1foto2" src="" alt="">
                 </div>
             </div>
-        </main>
+            <div class="Stem" id="Stemdiv1">
+                <button class="stem" id="Stem1" onclick="stem1()">Stem</button>
+            </div>
+            <div class="PartijInfo" id="partij2Info">
+                <h3 class="PartijNaam1" id="Partij2Naam1">PartijNaam</h3>
+                <img id="Partij2foto1" src="foto.jpg" alt="">
+                <h3 class="PartijNaam2" id="Partij2Naam2">PartijNaam</h3>
+                <p class="exstra" id="Partij2exstra">Hier komt er exstra tekst over de partij</p>
+                <h5 class="Title" id="Partij2Title">Hier komt de Title van de partij te staan</h5>
+                <div class="delogo">
+                    <img id="Partij2foto2" src="" alt="">
+                </div>
+            </div>
+            <div class="Stem" id="Stemdiv2">
+                <button class="stem" id="Stem2" onclick="stem2()">Stem</button>
+            </div>
+        </div>
+        <div class="PartijInfo" id="partij3Info">
+                <h3 class="PartijNaam1" id="Partij3Naam1">PartijNaam</h3>
+                <img id="Partij3foto1" src="foto.jpg" alt="">
+                <h3 class="PartijNaam2" id="Partij3Naam2">PartijNaam</h3>
+                <p class="exstra" id="Partij3exstra">Hier komt er exstra tekst over de partij</p>
+                <h5 class="Title" id="Partij3Title">Hier komt de Title van de partij te staan</h5>
+                <div class="delogo">
+                    <img id="Partij3foto2" src="" alt="">
+                </div>
+            </div>
+            <div class="Stem" id="Stemdiv3">
+                <button class="stem" id="Stem3" onclick="stem3()">Stem</button>
+            </div>
+        </div>
+        <div class="PartijInfo" id="partij4Info">
+            <h3 class="PartijNaam1" id="Partij4Naam1">PartijNaam</h3>
+            <img id="Partij4foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij4Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij4exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij4Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij4foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv4">
+            <button class="stem" id="Stem4" onclick="stem4()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij5Info">
+            <h3 class="PartijNaam1" id="Partij5Naam1">PartijNaam</h3>
+            <img id="Partij5foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij5Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij5exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij5Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij5foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv5">
+            <button class="stem" id="Stem5" onclick="stem5()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij6Info">
+            <h3 class="PartijNaam1" id="Partij6Naam1">PartijNaam</h3>
+            <img id="Partij6foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij6Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij6exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij6Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij6foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv6">
+            <button class="stem" id="Stem6" onclick="stem6()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij7Info">
+            <h3 class="PartijNaam1" id="Partij7Naam1">PartijNaam</h3>
+            <img id="Partij7foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij7Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij7exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij7Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij7foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv7">
+            <button class="stem" id="Stem7" onclick="stem7()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij8Info">
+            <h3 class="PartijNaam1" id="Partij8Naam1">PartijNaam</h3>
+            <img id="Partij8foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij8Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij8exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij8Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij8foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv8">
+            <button class="stem" id="Stem8" onclick="stem8()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij9Info">
+            <h3 class="PartijNaam1" id="Partij9Naam1">PartijNaam</h3>
+            <img id="Partij9foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij9Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij9exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij9Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij9foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv9">
+            <button class="stem" id="Stem9" onclick="stem9()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij10Info">
+            <h3 class="PartijNaam1" id="Partij10Naam1">PartijNaam</h3>
+            <img id="Partij10foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij10Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij10exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij10Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij10foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv10">
+            <button class="stem" id="Stem10" onclick="stem10()">Stem</button>
+        </div>
+        <div class="PartijInfo" id="partij11Info">
+            <h3 class="PartijNaam1" id="Partij11Naam1">PartijNaam</h3>
+            <img id="Partij11foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij11Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij11exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij11Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij11foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv11">
+            <button class="stem" id="Stem11" onclick="stem11()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij12Info">
+            <h3 class="PartijNaam1" id="Partij12Naam1">PartijNaam</h3>
+            <img id="Partij12foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij12Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij12exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij12Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij12foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv12">
+            <button class="stem" id="Stem12" onclick="stem12()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij13Info">
+            <h3 class="PartijNaam1" id="Partij13Naam1">PartijNaam</h3>
+            <img id="Partij13foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij13Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij13exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij13Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij13foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv13">
+            <button class="stem" id="Stem13" onclick="stem13()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij14Info">
+            <h3 class="PartijNaam1" id="Partij14Naam1">PartijNaam</h3>
+            <img id="Partij14foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij14Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij14exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij14Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij14foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv14">
+            <button class="stem" id="Stem14" onclick="stem14()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij15Info">
+            <h3 class="PartijNaam1" id="Partij15Naam1">PartijNaam</h3>
+            <img id="Partij15foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij15Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij15exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij15Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij15foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv15">
+            <button class="stem" id="Stem15" onclick="stem15()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij16Info">
+            <h3 class="PartijNaam1" id="Partij16Naam1">PartijNaam</h3>
+            <img id="Partij16foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij16Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij16exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij16Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij16foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv16">
+            <button class="stem" id="Stem16" onclick="stem16()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij17Info">
+            <h3 class="PartijNaam1" id="Partij17Naam1">PartijNaam</h3>
+            <img id="Partij17foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij17Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij17exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij17Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij17foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv17">
+            <button class="stem" id="Stem17" onclick="stem17()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij18Info">
+            <h3 class="PartijNaam1" id="Partij18Naam1">PartijNaam</h3>
+            <img id="Partij18foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij18Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij18exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij18Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij18foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv18">
+            <button class="stem" id="Stem18" onclick="stem18()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij19Info">
+            <h3 class="PartijNaam1" id="Partij19Naam1">PartijNaam</h3>
+            <img id="Partij19foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij19Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij19exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij19Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij19foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv19">
+            <button class="stem" id="Stem19" onclick="stem19()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij20Info">
+            <h3 class="PartijNaam1" id="Partij20Naam1">PartijNaam</h3>
+            <img id="Partij20foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij20Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij20exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij20Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij20foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv20">
+            <button class="stem" id="Stem20" onclick="stem20()">Stem</button>
+        </div>
+        <div class="PartijInfo" id="partij21Info">
+            <h3 class="PartijNaam1" id="Partij21Naam1">PartijNaam</h3>
+            <img id="Partij21foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij21Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij21exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij21Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij21foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv21">
+            <button class="stem" id="Stem21" onclick="stem21()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij22Info">
+            <h3 class="PartijNaam1" id="Partij22Naam1">PartijNaam</h3>
+            <img id="Partij22foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij22Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij22exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij22Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij22foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv22">
+            <button class="stem" id="Stem22" onclick="stem22()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij23Info">
+            <h3 class="PartijNaam1" id="Partij23Naam1">PartijNaam</h3>
+            <img id="Partij23foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij23Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij23exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij23Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij23foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv23">
+            <button class="stem" id="Stem23" onclick="stem23()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij24Info">
+            <h3 class="PartijNaam1" id="Partij24Naam1">PartijNaam</h3>
+            <img id="Partij24foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij24Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij24exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij24Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij24foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv24">
+            <button class="stem" id="Stem24" onclick="stem24()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij25Info">
+            <h3 class="PartijNaam1" id="Partij25Naam1">PartijNaam</h3>
+            <img id="Partij25foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij25Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij25exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij25Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij25foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv25">
+            <button class="stem" id="Stem25" onclick="stem25()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij26Info">
+            <h3 class="PartijNaam1" id="Partij26Naam1">PartijNaam</h3>
+            <img id="Partij26foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij26Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij26exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij26Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij26foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv26">
+            <button class="stem" id="Stem26" onclick="stem26()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij27Info">
+            <h3 class="PartijNaam1" id="Partij27Naam1">PartijNaam</h3>
+            <img id="Partij27foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij27Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij27exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij27Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij27foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv27">
+            <button class="stem" id="Stem27" onclick="stem27()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij28Info">
+            <h3 class="PartijNaam1" id="Partij28Naam1">PartijNaam</h3>
+            <img id="Partij28foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij28Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij28exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij28Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij28foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv28">
+            <button class="stem" id="Stem28" onclick="stem28()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij29Info">
+            <h3 class="PartijNaam1" id="Partij29Naam1">PartijNaam</h3>
+            <img id="Partij29foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij29Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij29exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij29Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij29foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv29">
+            <button class="stem" id="Stem29" onclick="stem29()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij30Info">
+            <h3 class="PartijNaam1" id="Partij30Naam1">PartijNaam</h3>
+            <img id="Partij30foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij30Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij30exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij30Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij30foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv30">
+            <button class="stem" id="Stem30" onclick="stem30()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij31Info">
+            <h3 class="PartijNaam1" id="Partij31Naam1">PartijNaam</h3>
+            <img id="Partij31foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij31Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij31exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij31Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij31foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv31">
+            <button class="stem" id="Stem31" onclick="stem31()">Stem</button>
+        </div>
+        <div class="PartijInfo" id="partij32Info">
+            <h3 class="PartijNaam1" id="Partij32Naam1">PartijNaam</h3>
+            <img id="Partij32foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij32Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij32exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij32Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij32foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv32">
+            <button class="stem" id="Stem32" onclick="stem32()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij33Info">
+            <h3 class="PartijNaam1" id="Partij33Naam1">PartijNaam</h3>
+            <img id="Partij33foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij33Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij33exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij33Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij33foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv33">
+            <button class="stem" id="Stem33" onclick="stem33()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij34Info">
+            <h3 class="PartijNaam1" id="Partij34Naam1">PartijNaam</h3>
+            <img id="Partij34foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij34Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij34exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij34Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij34foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv34">
+            <button class="stem" id="Stem34" onclick="stem34()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij35Info">
+            <h3 class="PartijNaam1" id="Partij35Naam1">PartijNaam</h3>
+            <img id="Partij35foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij35Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij35exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij35Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij35foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv35">
+            <button class="stem" id="Stem35" onclick="stem35()">Stem</button>
+        </div>
+        
+        <div class="PartijInfo" id="partij36Info">
+            <h3 class="PartijNaam1" id="Partij36Naam1">PartijNaam</h3>
+            <img id="Partij36foto1" src="foto.jpg" alt="">
+            <h3 class="PartijNaam2" id="Partij36Naam2">PartijNaam</h3>
+            <p class="exstra" id="Partij36exstra">Hier komt er exstra tekst over de partij</p>
+            <h5 class="Title" id="Partij36Title">Hier komt de Title van de partij te staan</h5>
+            <div class="delogo">
+                <img id="Partij36foto2" src="" alt="">
+            </div>
+        </div>
+        <div class="Stem" id="Stemdiv36">
+            <button class="stem" id="Stem36" onclick="stem36()">Stem</button>
+        </div>
+        <div class="Terug" id="Terugdiv">
+            <button class="Terug" id="Terug36" onclick="Terug()">Terug</button>
+        </div>
+    </main>
     <script src="../JavaScript/JongerenPartij.js"></script>
 </body>
 </html>
