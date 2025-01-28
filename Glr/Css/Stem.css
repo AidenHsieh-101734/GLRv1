@@ -1,0 +1,79 @@
+body {
+    background-color: rgba(255, 255, 255, 0.451);
+    font-family: Impact, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#Links {
+    display: flex;
+    gap: 10px;
+}
+
+#Links button {
+    background-color: white;
+    border: none;
+    font-family: Impact, sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#Links button:hover {
+    color: rgb(7, 189, 7);
+}
+
+.partij-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.vierkant {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid green;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.vierkant:hover {
+    transform: scale(1.1);
+}
+
+.vierkant.active {
+    background-color: green;
+}
+
+.partij-container p {
+    font-size: 20px;
+    font-family: Impact, sans-serif;
+    margin: 0;
+}

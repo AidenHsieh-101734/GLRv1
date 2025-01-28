@@ -1,0 +1,112 @@
+body {
+    background-color: rgba(255, 255, 255, 0.451);
+    font-family: Impact, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#Links {
+    display: flex;
+    gap: 10px;
+}
+
+#Links button {
+    background-color: white;
+    border: none;
+    font-family: Impact, sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#Links button:hover {
+    color: rgb(7, 189, 7);
+}
+
+.login-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 60px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    text-align: center;
+    width: 95%;
+    max-width: 500px;
+}
+
+.login-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-container button {
+    width: 106%;
+    padding: 10px;
+    background-color: rgb(7, 189, 7);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: rgb(5, 150, 5);
+}
+
+@media (max-width: 768px) {
+    #Links button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .login-container {
+        width: 95%;
+    }
+}

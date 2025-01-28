@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="../Css/Admin.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="../Foto/GLR.gif" alt="GLR Logo" class="logo">
+    </div>
+
+    <header>
+        <div id="Links">
+            <button onclick="Home()" id="Home" type="button">Home</button>
+            <button onclick="Jongeren()" id="Jongeren" type="button">Jongeren <br> Partij</button>
+            <button onclick="Stem()" id="Stem" type="button">Stem</button>
+            <button onclick="Uitslag()" id="Uitslag" type="button">Uitslag</button>
+            <button onclick="Login()" id="Login" type="button">Login</button>
+            <button onclick="Admin()" id="Admin" type="button">Admin</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="login-container">
+            <h1>Login</h1>
+            <form action="#" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Wachtwoord:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="../JavaScript/Admin.js"></script>
+</body>
+</html>
