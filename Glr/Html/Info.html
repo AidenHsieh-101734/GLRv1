@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partij Info</title>
+    <link rel="stylesheet" href="../Css/Info.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="../Foto/GLR.gif" alt="GLR Logo" class="logo">
+    </div>
+
+    <header>
+        <div id="Links">
+            <button onclick="Home()" id="Home" type="button">Home</button>
+            <button onclick="Jongeren()" id="Jongeren" type="button">Jongeren <br> Partij</button>
+            <button onclick="Stem()" id="Stem" type="button">Stem</button>
+            <button onclick="Uitslag()" id="Uitslag" type="button">Uitslag</button>
+            <button onclick="Login()" id="Login" type="button">Login</button>
+            <button onclick="Admin()" id="Admin" type="button">Admin</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="content-container">
+            <div class="poster-container">
+                <h1 class="partij-naam">Partij Naam</h1>
+                <img src="../Foto/posterGLR.jpeg" alt="Poster" class="poster">
+            </div>
+
+            <div class="text-container">
+                <h2>Over de Partij</h2>
+                <p>Hier komt een beschrijving van de partij.</p>
+                <h2>Slogan</h2>
+                <p>Hier komt je slogan van de partij.</p>
+                <h2>Youtube Video</h2>
+                <p>Hier komt de Youtube video van de partij.</p>
+            </div>
+
+            <div class="extra-logo-container">
+                <img src="../Foto/GLR.gif" alt="Extra Logo" class="extra-logo">
+            </div>
+        </div>
+        <div class="terug-container">
+            <button class="terug-button" onclick="window.history.back()">Terug</button>
+        </div>
+        
+    </main>
+
+    <script src="../JavaScript/Info.js"></script>
+</body>
+</html>
